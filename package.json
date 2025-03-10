@@ -6,7 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prepare": "husky",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
   },
   "dependencies": {
     "framer-motion": "^12.4.10",
@@ -16,13 +24,23 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@eslint/js": "^9.22.0",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "15.1.6",
+    "eslint": "^9.22.0",
+    "eslint-config-next": "^15.2.1",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "globals": "^16.0.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^15.4.3",
     "postcss": "^8",
+    "prettier": "^3.5.3",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5"
+    "typescript": "^5",
+    "typescript-eslint": "^8.26.0"
   }
 }

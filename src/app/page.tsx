@@ -1,9 +1,10 @@
-import IntroWrapper from '@/components/IntroWrapper';
+import IntroWrapper from '@/components/IntroWrapper'
+import React from 'react'
 
 export default function Home() {
-    return (
-        <>
-            <IntroWrapper />
-        </>
-    );
+  return (
+    <>
+      <IntroWrapper />
+    </>
+  )
 }
