@@ -23,3 +23,27 @@ export const jobData = [
     ],
   },
 ]
+
+export const projects = [
+  {
+    id: 1,
+    name: 'GraphQL App',
+    picture: '/graphql.jpg',
+    desc: 'A lightweight alternative to Postman and GraphiQL, seamlessly integrated into a single application. Built with Next.js, TypeScript, and MUI, it supports multilingual functionality (i18n) with two languages and leverages Firebase for authentication and data management.',
+    techniques: ['NextJS', 'ReduxJS', 'Typescript', 'MUI design', 'Firebase'],
+  },
+  {
+    id: 2,
+    name: 'Tejamkor App',
+    picture: '/tejamkor.jpg',
+    desc: 'A website developed for a finance company, built using Next.js for a fast and dynamic user experience, with SCSS for enhanced styling and maintainability. Developed and maintained 15+ reusable, high-quality frontend components using NextJS, decreasing development time by 15 percent and improving code maintainability.',
+    techniques: ['NextJS', 'SCSS'],
+  },
+  {
+    id: 3,
+    name: 'Coffee House',
+    picture: '/coffee-house.jpg',
+    desc: 'A website developed during the frontend development course, built using pure Javascript with SCSS for enhanced styling and maintainability. No Javascript frameworks are not used in this website to enhance experience in JS.',
+    techniques: ['Javascript', 'SCSS'],
+  },
+]
