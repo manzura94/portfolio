@@ -24,9 +24,9 @@ export default function IntroWrapper() {
           className="w-full"
         >
           <div className="flex flex-col h-full justify-between items-center  min-h-screen p-8 pb-20 gap-1 sm:p-5 ">
-            <div className="flex justify-between w-full max-w-6xl h-full flex-1 gap-5 mt-[80px]">
+            <div className="flex justify-between w-full max-w-6xl h-full flex-1 gap-5 mt-[80px] ">
               <Header />
-              <main className="flex gap-10 w-1/2 lg:w-[52%] ">
+              <main className="flex gap-10 w-1/2 w-[60vw] ml-[35vw]">
                 <Hero />
               </main>
             </div>

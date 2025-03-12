@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 
 const Header = () => {
   return (
-    <header className="w-1/2 flex flex-col  lg:w-[48%]">
+    <header className="w-1/2 flex flex-col  fixed top-[200px] h-full w-[30vw]">
       <h1 className=" mb-7 ml-1 text-[#64FFDA] font-mono text-[clamp(14px,5vw,16px)] font-normal">
         Hi, my name is
       </h1>

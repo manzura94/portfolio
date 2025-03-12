@@ -15,7 +15,7 @@ const About = () => {
                 true passion in software development, continuously expanding my knowledge and skills.`}
       </p>
       <p className="mb-4 leading-normal text-slate-400">
-        {`Currently, I'm a Junior Front-End Engineer at`}
+        {`Currently, I'm a Junior Front-End Engineer at `}
         <a href="https://vosyn.ai/" className="text-white hover:text-[#64ffda]">
           Vosyn AI
         </a>
@@ -25,11 +25,11 @@ const About = () => {
         practices to deliver an inclusive user experience.`}
       </p>
       <p className="mb-4 leading-normal text-slate-400">
-        {` I have hands-on experience working as a junior frontend developer at`}
+        {` I have hands-on experience working as a junior frontend developer at  `}
         <a className="text-white hover:text-[#64ffda]" href="https://appx.uz/">
           APPX
         </a>
-        {` , where I contributed to building admin panels and enhancing user
+        {`, where I contributed to building admin panels and enhancing user
         interfaces. I also actively work on personal and open-source projects,
         striving for excellence in both design and functionality. Debugging and
         problem-solving are key parts of my process, as I view every challenge
