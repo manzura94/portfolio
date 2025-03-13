@@ -2,14 +2,14 @@ import React from 'react'
 import About from './About'
 import Jobs from './Jobs'
 import Projects from './Projects'
-import { Resume } from './Resume'
+import { GreenButton } from './GreenButton'
 import { SayHello } from './SayHello'
 
 const Hero = () => {
   return (
     <div>
       <About />
-      <Resume />
+      {GreenButton('Resume', 'https://example.com')}
       <Jobs />
       <Projects />
       <SayHello />

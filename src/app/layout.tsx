@@ -1,3 +1,4 @@
+import MouseLight from '@/components/Animations/MouseLight'
 import type { Metadata } from 'next'
 import React from 'react'
 import './globals.css'
@@ -15,13 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`antialiased bg-slate-900`}>
-        <div
-          className="pointer-events-none fixed inset-0 z-30 transition duration-300 lg:absolute"
-          style={{
-            background:
-              'radial-gradient(600px at 0px 0px, rgba(29, 78, 216, 0.15), transparent 80%)',
-          }}
-        ></div>
+        <MouseLight />
         {children}
       </body>
     </html>

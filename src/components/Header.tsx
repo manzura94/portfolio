@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
+import { Typewriter } from 'react-simple-typewriter'
 
 const Header = () => {
   return (
@@ -11,7 +12,19 @@ const Header = () => {
         Manzura Jabbarova
       </h2>
       <h3 className="m-0 mt-5 font-bold text-[#8892b0] leading-[0.9] text-[clamp(30px,7vw,50px)]">
-        I build things for the web.
+        <Typewriter
+          words={[
+            'I build things for the web.',
+            'I create modern websites.',
+            'I make the web user-friendly.',
+          ]}
+          loop={100}
+          cursor
+          cursorStyle=""
+          typeSpeed={100}
+          deleteSpeed={100}
+          delaySpeed={5000}
+        />
       </h3>
       <p className="mt-4 max-w-xs leading-normal text-slate-400">
         I’m a frontend developer building fast, accessible websites.
