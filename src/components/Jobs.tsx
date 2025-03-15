@@ -6,17 +6,21 @@ import { ArrowTop } from './icons/ArrowTop'
 const Jobs = () => {
   return (
     <section id="experience" className="mt-20 overflow-visible box-content p-0">
+      <h3 className="hidden max-[1023px]:block mb-7 mt-3 ml-1 text-[#64FFDA] font-mono text-[clamp(14px,5vw,16px)] font-normal">
+        02. Experience
+      </h3>
       <ol className="box-content overflow-visible space-y-5">
-        <h3 className="hidden max-[1023px]:block mb-7 mt-3 ml-1 text-[#64FFDA] font-mono text-[clamp(14px,5vw,16px)] font-normal">
-          02. Experience
-        </h3>
         {jobData.map((item) => (
           <li
             key={item.id}
             className="mb-12 -m-5 p-5 rounded-[10px] group cursor-pointer transition-colors duration-300 hover:bg-[rgba(148,163,184,0.1)] box-border"
           >
-            <Link href={item.link} target={'_blank'} className="flex gap-10">
-              <div className="w-[20%] mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 ">
+            <Link
+              href={item.link}
+              target={'_blank'}
+              className="flex gap-10 max-[665px]:flex-col max-[665px]:gap-0"
+            >
+              <div className="w-[20%] max-[665px]:w-[100%] mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 ">
                 {item.time}
               </div>
               <div>

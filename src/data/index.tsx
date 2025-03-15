@@ -10,7 +10,11 @@ export const socialLinks = [
     href: 'https://www.linkedin.com/in/manzura-jabbarova-19066712a/',
     icon: <LinkedIn />,
   },
-  { id: 'instagram', href: '#', icon: <Instagram /> },
+  {
+    id: 'instagram',
+    href: 'https://www.instagram.com/username/nomadic.lifestyle_/',
+    icon: <Instagram />,
+  },
 ]
 
 export const jobData = [

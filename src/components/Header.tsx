@@ -11,7 +11,7 @@ const Header = () => {
       <h2 className="text-2xl font-bold tracking-tight text-slate-200 sm:text-5xl">
         Manzura Jabbarova
       </h2>
-      <h3 className="m-0 mt-2 inline-block min-h-[100px] font-bold text-[#8892b0] leading-[0.9] text-[clamp(30px,7vw,50px)] max-[1023px]:w-[70%]">
+      <h3 className="m-0 mt-2 inline-block min-h-[100px] max-[600px]:min-h-[70px]  font-bold text-[#8892b0] leading-[0.9] text-[clamp(30px,7vw,50px)] w-[85%]">
         <Typewriter
           words={[
             'I build things for the web.',
@@ -26,9 +26,6 @@ const Header = () => {
           delaySpeed={5000}
         />
       </h3>
-      {/* <p className="mt-4 max-w-xs leading-normal text-slate-400">
-        I’m a frontend developer building fast, accessible websites.
-      </p> */}
       <Navbar />
     </header>
   )

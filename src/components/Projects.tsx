@@ -6,18 +6,22 @@ import { ArrowTop } from './icons/ArrowTop'
 
 const Projects = () => {
   return (
-    <section id="projects" className="mt-[150px]">
+    <section id="projects" className="mt-[150px] max-[665px]:mt-[70px]">
+      <h3 className="hidden max-[1023px]:block mb-7 mt-3 ml-1 text-[#64FFDA] font-mono text-[clamp(14px,5vw,16px)] font-normal">
+        03. My projects
+      </h3>
       <ol className="box-content overflow-visible ">
-        <h3 className="hidden max-[1023px]:block mb-7 mt-3 ml-1 text-[#64FFDA] font-mono text-[clamp(14px,5vw,16px)] font-normal">
-          03. My projects
-        </h3>
         {projects.map((item) => (
           <li
             key={item.id}
             className="mb-12 -m-5 p-5 rounded-[10px] group cursor-pointer transition-colors duration-300 hover:bg-[rgba(148,163,184,0.1)]"
           >
-            <Link href={item.link} className="flex gap-5" target={'_blank'}>
-              <div className="w-[25%] mt-1 ">
+            <Link
+              href={item.link}
+              className="flex gap-5 max-[665px]:flex-col-reverse"
+              target={'_blank'}
+            >
+              <div className="w-[25%] mt-1 max-[665px]:w-[200px] max-[665px]:h-[115px]">
                 <div className="w-full">
                   <Image
                     src={item.picture}
@@ -28,7 +32,7 @@ const Projects = () => {
                   />
                 </div>
               </div>
-              <div className="w-[75%]">
+              <div className="w-[75%] max-[665px]:w-[100%]">
                 <h3 className="font-medium text-slate-200 group-hover:text-teal-300 ">
                   {item.name}
                   <span className="inline-block">
