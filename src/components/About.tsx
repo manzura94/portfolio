@@ -6,6 +6,9 @@ const About = () => {
       id="about"
       className="mb-10 scroll-mt-16 md:mb-14 lg:mb-16 lg:scroll-mt-24"
     >
+      <h3 className="hidden max-[1023px]:block mb-7 mt-3 ml-1 text-[#64FFDA] font-mono text-[clamp(14px,5vw,16px)] font-normal">
+        01. About me
+      </h3>
       <p className="mb-4 leading-normal text-slate-400">
         {`I am a frontend developer with a strong passion for creating functional, user-centric websites using modern technologies like HTML, CSS, JavaScript, React, and
                 Next.js. I prioritize clean code, performance, and accessibility to ensure seamless digital experiences.`}

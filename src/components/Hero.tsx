@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <div>
       <About />
-      {GreenButton('Resume', 'https://example.com')}
+      <GreenButton name="Resume" href="/CVV.pdf" />
       <Jobs />
       <Projects />
       <SayHello />

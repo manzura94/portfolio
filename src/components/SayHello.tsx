@@ -12,7 +12,7 @@ export const SayHello = () => {
         collaborate, feel free to reach out, my inbox is always open. Or just
         want to say hi, I will try my best to get back to you!`}
       </p>
-      <div>{GreenButton('Say Hello', 'https://example.com')}</div>
+      <GreenButton name="Say Hello" href="https://t.me/+393463114062" />
     </footer>
   )
 }

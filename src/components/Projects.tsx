@@ -1,5 +1,6 @@
 import { projects } from '@/data'
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 import { ArrowTop } from './icons/ArrowTop'
 
@@ -7,12 +8,15 @@ const Projects = () => {
   return (
     <section id="projects" className="mt-[150px]">
       <ol className="box-content overflow-visible ">
+        <h3 className="hidden max-[1023px]:block mb-7 mt-3 ml-1 text-[#64FFDA] font-mono text-[clamp(14px,5vw,16px)] font-normal">
+          03. My projects
+        </h3>
         {projects.map((item) => (
           <li
             key={item.id}
             className="mb-12 -m-5 p-5 rounded-[10px] group cursor-pointer transition-colors duration-300 hover:bg-[rgba(148,163,184,0.1)]"
           >
-            <div className="flex gap-5">
+            <Link href={item.link} className="flex gap-5" target={'_blank'}>
               <div className="w-[25%] mt-1 ">
                 <div className="w-full">
                   <Image
@@ -44,7 +48,7 @@ const Projects = () => {
                   ))}
                 </ul>
               </div>
-            </div>
+            </Link>
           </li>
         ))}
         <p className=" mb-7 ml-1 text-[#64FFDA] font-mono text-[clamp(14px,5vw,16px)] font-normal">
