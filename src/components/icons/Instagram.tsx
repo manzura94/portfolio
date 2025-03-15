@@ -12,7 +12,7 @@ export const Instagram = () => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        className="w-6 h-6 text-gray-700 transition-colors duration-300 hover:text-[#64FFDA] dark:text-gray-400 dark:hover:text-[#64FFDA]"
+        className="w-6 h-6 !text-[#94A3B8] transition-colors duration-300 hover:text-[#64FFDA]"
       >
         <title>Instagram</title>
         <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>

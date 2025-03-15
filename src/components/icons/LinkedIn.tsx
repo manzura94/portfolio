@@ -12,7 +12,7 @@ export const LinkedIn = () => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        className="w-6 h-6 text-gray-700 transition-colors duration-300 hover:text-[#64FFDA] dark:text-gray-400 dark:hover:text-[#64FFDA]"
+        className="w-6 h-6 !text-[#94A3B8] transition-colors duration-300 hover:text-[#64FFDA]"
       >
         <title>LinkedIn</title>
         <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
