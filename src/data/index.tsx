@@ -1,7 +1,6 @@
-import Github from '@/components/icons/Github'
-
-import { Instagram } from '@/components/icons/Instagram'
-import { LinkedIn } from '@/components/icons/LinkedIn'
+import Github from 'src/components/icons/Github'
+import { Instagram } from 'src/components/icons/Instagram'
+import { LinkedIn } from 'src/components/icons/LinkedIn'
 
 export const socialLinks = [
   { id: 'github', href: 'https://github.com/manzura94', icon: <Github /> },

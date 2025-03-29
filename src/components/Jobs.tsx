@@ -1,6 +1,6 @@
-import { jobData } from '@/data'
 import Link from 'next/link'
 import React from 'react'
+import { jobData } from 'src/data'
 import { ArrowTop } from './icons/ArrowTop'
 
 const Jobs = () => {

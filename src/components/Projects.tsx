@@ -1,7 +1,7 @@
-import { projects } from '@/data'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import { projects } from 'src/data'
 import { ArrowTop } from './icons/ArrowTop'
 
 const Projects = () => {

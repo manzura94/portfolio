@@ -1,5 +1,5 @@
-import { socialLinks } from '@/data'
 import React from 'react'
+import { socialLinks } from 'src/data'
 import './style.css'
 
 const Contact = () => {
