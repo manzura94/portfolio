@@ -67,6 +67,6 @@ export const projects = [
     picture: '/coffee-house.jpg',
     desc: 'A website developed during the frontend development course, built using pure Javascript with SCSS for enhanced styling and maintainability. No Javascript frameworks are not used in this website to enhance experience in JS.',
     techniques: ['Javascript', 'SCSS'],
-    link: 'https://manzura94.github.io/coffee-house/',
+    link: 'https://coffee-house-rho.vercel.app/',
   },
 ]
